@@ -1,0 +1,122 @@
+/*----------------------------------------------------------------- */
+/* ASTRA
+/*----------------------------------------------------------------- */
+
+/* ICONS
+----------------------------------------- */
+.uagb-button__icon
+{
+	transition: 0.5s;
+}
+
+.icon-color_blue a:hover .uagb-button__icon
+{
+	color: var(--ast-global-color-0);
+}
+
+.icon-color_white a:hover .uagb-button__icon
+{
+	color: var(--ast-global-color-5);
+}
+
+/* ALIGNMENT
+----------------------------------------- */
+@media (max-width: 767px)
+{
+	.text-align_center .uagb-heading-text,
+	.text-align_center .uagb-desc-text
+	{
+		text-align: center !important;
+	}
+}
+
+/* SHORTCODES
+----------------------------------------- */
+
+/* NEWEST POSTS */
+.naswp-newest-posts
+{
+	margin-left: 1.3em;
+}
+
+.naswp-newest-posts h3
+{
+	font-size: 1rem;
+
+	display: inline-block;
+
+	margin: 0 5px 0 0;
+
+	vertical-align: middle;
+}
+
+.naswp-newest-posts time
+{
+	display: inline-block;
+
+	margin: 2px 0 0 0;
+
+	vertical-align: middle;
+}
+
+/* TOP POSTS */
+.naswp-top-post
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	padding: 30px 0;
+
+	text-decoration: none !important;
+
+	color: #718096;
+	border-top: 1px solid #edf2f7;
+}
+
+.naswp-top-post:hover
+{
+	color: #718096;
+}
+
+.naswp-top-post:first-child
+{
+	border: none;
+}
+
+.naswp-top-post img
+{
+	display: block;
+
+	width: 50px;
+	height: 50px;
+
+	object-fit: cover;
+	object-position: center center;
+}
+
+.naswp-top-post__content
+{
+	width: calc(100% - 50px - 15px);
+}
+
+.naswp-top-post__content h3
+{
+	font-size: 1rem;
+
+	margin: 0 0 10px 0;
+
+	transition: 0.5s;
+}
+
+.naswp-top-post:hover h3
+{
+	color: #f12229;
+}
+
+.naswp-top-post__content p
+{
+	font-size: 1rem;
+
+	margin: 0;
+}

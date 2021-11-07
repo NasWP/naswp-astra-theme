@@ -1,0 +1,140 @@
+/*----------------------------------------------------------------- */
+/* ADMINISTRATION
+/*----------------------------------------------------------------- */
+
+/* GENERAL
+----------------------------------------- */
+.auto-add-pages
+{
+	display: none; /* hides auto add pages control */
+}
+
+/* ACF
+----------------------------------------- */
+
+/* GENERAL */
+.acf-fields
+{
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.acf-fields > .acf-field
+{
+	float: none !important;
+	clear: none !important;
+
+	width: 100%;
+}
+
+.webpunk-acf-right
+{
+	margin-left: 50% !important;
+
+	border-left: 1px solid #eee;
+}
+
+/* REPEATER */
+.acf-repeater .acf-row-handle.order
+{
+	font-weight: bold;
+
+	color: #000;
+}
+
+.acf-repeater tr:nth-child(odd) > .acf-row-handle.order,
+.acf-repeater tr:nth-child(odd) > .acf-row-handle.remove
+{
+	background: #e9e9e9;
+}
+
+/* ALERTS
+----------------------------------------- */
+.webpunk-alert
+{
+	padding: 15px 15px !important;
+
+	border-width: 0 0 0 5px;
+	border-style: solid;
+
+	--alert__error: #c0392b;
+	--alert__info: #3498db;
+	--alert__success: #2ecc71;
+	--alert__warning: #f1c40f;
+}
+
+.webpunk-alert p
+{
+	font-size: 14px !important;
+}
+
+.webpunk-alert p:last-child
+{
+	margin: 0;
+}
+
+.webpunk-alert a
+{
+	text-decoration: underline;
+}
+
+.webpunk-alert a:hover
+{
+	text-decoration: none;
+}
+
+/* SUCCESS */
+.webpunk-alert_success
+{
+	color: var(--alert__success);
+	border-color: var(--alert__success);
+	background: #d5f5e3;
+}
+
+.webpunk-alert_success a
+{
+	color: var(--alert__success);
+}
+
+/* INFO */
+.webpunk-alert_info
+{
+	padding: 5px 15px;
+
+	color: var(--alert__info);
+	border-color: var(--alert__info);
+	background: #d6eaf8;
+}
+
+.webpunk-alert_info a
+{
+	color: var(--alert__info);
+}
+
+/* WARNING */
+.webpunk-alert_warning
+{
+	color: var(--alert__warning);
+	border-color: var(--alert__warning);
+	background: #fcf3cf;
+}
+
+.webpunk-alert_warning a
+{
+	color: var(--alert__warning);
+}
+
+/* ERROR */
+.webpunk-alert_error
+{
+	color: var(--alert__error);
+	border-color: var(--alert__error);
+	background: #f2d7d5;
+}
+
+.webpunk-alert_error a
+{
+	color: var(--alert__error);
+}

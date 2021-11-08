@@ -115,4 +115,8 @@
     $naswp_helpers->lightbox();
     $naswp_helpers->auto_async_js();
     $naswp_helpers->file_names();
+    
+    /* --- Hashlinks --- */
+    require_once __DIR__ . '/inc/lynt/hashlinks.php';
+    
 

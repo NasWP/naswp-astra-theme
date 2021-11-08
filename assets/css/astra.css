@@ -120,3 +120,51 @@
 
 	margin: 0;
 }
+
+
+/* ICONS
+----------------------------------------- */
+.lynt-clip {
+     position: relative;
+     display: inline-block;
+     margin-left: 5px;
+}
+
+.lynt-clip svg {
+     stroke: #fff;
+}
+
+.lynt-clip > * {
+     pointer-events: none;
+}
+
+.lynt-clip .lynt-clip-tooltip {
+     visibility: hidden;
+     width: 120px;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     padding: 5px;
+     border-radius: 6px;
+     position: absolute;
+     z-index: 1;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -60px;
+     font-size: 0.4em;
+}
+
+.lynt-clip:hover .lynt-clip-tooltip {
+     visibility: visible;
+}
+
+.lynt-clip .lynt-clip-tooltip::after {
+     content: " ";
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     margin-left: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: black transparent transparent transparent;
+}

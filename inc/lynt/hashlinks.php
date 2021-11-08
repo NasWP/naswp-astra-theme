@@ -1,3 +1,4 @@
+<?php
 function lynt_hashlink_script(){
 ?>
 <script>

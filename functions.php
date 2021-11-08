@@ -105,14 +105,14 @@
     
     /* --- NasWP Kit --- */
     require_once "settings.php";
-    $settings = new NasWP_Settings();
+    $naswp_settings = new NasWP_Settings();
 
 
     require_once "classes/class-naswp-helpers.php";
-    $helpers = new NasWP_Helpers();
+    $naswp_helpers = new NasWP_Helpers();
     //$helpers->gtm('GTM-0');
-    $helpers->mimes($settings->mimes);
-    $helpers->lightbox();
-    $helpers->auto_async_js();
-    $helpers->file_names();
+    $naswp_helpers->mimes($naswp_settings->mimes);
+    $naswp_helpers->lightbox();
+    $naswp_helpers->auto_async_js();
+    $naswp_helpers->file_names();
 

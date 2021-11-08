@@ -119,4 +119,7 @@
     /* --- Hashlinks --- */
     require_once __DIR__ . '/inc/lynt/hashlinks.php';
     
+    /* --- Author Box --- */
+    require_once __DIR__ . '/inc/lynt/author-box.php';
+    
 

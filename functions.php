@@ -27,7 +27,7 @@
 	/* ------------------------------ THEMES & BUILDERS ------------------------------ */
 
 	// general settings for blocks
-	//require_once __DIR__ . '/inc/gutenberg.php';
+	//require_once __DIR__ . '/inc/webpunk/gutenberg.php';
 
 	// custom settings for Astra 
 	require_once __DIR__ . '/inc/webpunk/astra.php';
